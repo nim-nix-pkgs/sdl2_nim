@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sdl2_nim-master.flake = false;
+  inputs.src-sdl2_nim-master.ref   = "refs/heads/master";
   inputs.src-sdl2_nim-master.owner = "Vladar4";
-  inputs.src-sdl2_nim-master.ref   = "master";
   inputs.src-sdl2_nim-master.repo  = "sdl2_nim";
   inputs.src-sdl2_nim-master.type  = "github";
   
